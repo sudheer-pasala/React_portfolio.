@@ -1,0 +1,40 @@
+
+.heading{
+    text-align: center;
+}
+.service{
+    font-size: 1.5rem;
+}
+
+.container-card{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.service-card{
+    margin: 1rem;
+    background: rgb(12, 43, 90);
+    background: transparent;
+    color: whitesmoke;
+}
+.card:hover{
+    animation:  all  2s ease 0s infinite ;
+    border: 2px solid pink;
+}
+
+@keyframes all {
+    0%{
+        transform: translateY(-5px);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+}
+    .domain{
+        font-size: 2rem;
+        color: green;
+    }
+    p{
+        text-align: center;
+    }

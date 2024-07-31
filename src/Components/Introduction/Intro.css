@@ -1,0 +1,43 @@
+.intro{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#dee2e6;
+
+}
+.My_Name{
+    font-size: 3rem;
+}
+.emoji{
+    margin-top: 3rem;
+    animation: pointer 2s ease 0s infinite normal none;
+
+}
+.emoji a{
+    text-decoration: none
+}
+.emoji:hover{
+    cursor: pointer;
+}
+@keyframes pointer {
+    0%{
+      transform: translateY(5px);
+    }
+    25%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translatey(-5px);
+    }
+   100%{
+    transform: translatey(-5px);
+   } 
+}
+.handEmoji{
+    font-size:50px;
+}
+

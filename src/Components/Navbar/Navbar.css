@@ -1,0 +1,26 @@
+
+.nav-link{
+    color: whitesmoke;
+}
+.nav-link:visited{
+    color: whitesmoke;
+}
+.nav-link:hover{
+    color: rgb(249, 105, 14);
+    text-decoration: 1px underline red;
+    transition: 0.8s;
+}
+
+.name{
+    color:red;
+}
+.name:visited{
+    color:red;
+}
+.name:hover{
+    color:aquamarine;
+}
+.navbar-toggler{
+    background-color:#caf0f8;
+    border: none;
+}
